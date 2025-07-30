@@ -3,35 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Practice Set</title>
     <style>
-        *{
-           margin: 0;
-           padding: 0;
+        .box{
+            height: 100px;
+            width: 100px;
+            margin: 5px;
+            border : 2px dotted red;
+            background-color: blue;
         }
-        #bar {
-            background-color: aquamarine;
-            color: rgba(103, 18,18, 0.8);
-        }
-        main {
-            background-color: blanchedalmond;
-            height: 500px;
-        }
-        #product{
-            background-image: url(jeans.jpg);
-            height: 1000px;
-             background-color: green;
-            background-repeat: no-repeat; 
-            background-position: center;
-            background: green url(jeans.jpg no-repeat none center;
-            
+        #first_button {
+            height: 70px;
+            width: 70px;
+            padding: 10px 15px 10px 15px;
+            margin: 100px;
+            border: 2px dotted red;
+            border-radius:35px ;
         }
     </style>
 </head>
 <body>
-    <header><div id="bar">This is my nav bar</div></header>
-    <main>
-        <div id="product">Product1</div>
-    </main>
+    <div class="box" style="box-sizing:content-box;">Box1</div>
+    <div class="box"
+    style="box-sizing: border-box;">Box2</div>
+    <button id="first_button">Click me</button>
 </body>
 </html>
